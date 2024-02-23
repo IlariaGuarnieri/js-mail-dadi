@@ -7,4 +7,5 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 # sviluppo
 1. prompt chiedi all'utente la mail
-2. 
+2. controllare che l'email sia valida e acccettabile con array
+3. generare un messaggio con l'esito
