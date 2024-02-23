@@ -5,9 +5,12 @@ console.log('mailUtente');
 
 const mailAccettate = document.getElementById('mail-Accettate');
 
+// array con mail in lista
+
 let mailAccetate =['ciao@gmail.com' ,'ugo@gmail.com' , 'mario@gmail.com']
 console.log(mail);
 
+// variabili scope per verificare se utente è in lista
 if (mailUtente === mailAccettate){ 
   stampa = 'benvenuto';
 } 
