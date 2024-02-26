@@ -60,3 +60,17 @@ document.querySelector('.container-a').innerHTML+=`
 
 
 
+/* DADI */
+const numA = Math.ceil(Math.random()*6);
+const numB = Math.ceil(Math.random()*6);
+let messaggioDadi = `Numero A: ${numA} - Numero B: ${numB}`;
+
+if (numA > numB){
+  messaggioDadi += 'Vince A'
+}else if (numA < numB){
+  messaggioDadi += 'Vince B'
+}else{
+  messaggioDadi += 'Pareggio'
+}
+
+document.getElementById('outputDadi').innerHTML = messaggioDadi
